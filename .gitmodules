@@ -4,3 +4,6 @@
 [submodule "property-interface"]
 	path = property-interface
 	url = git@github.com:kazigo/property-interface.git
+[submodule "property-ui"]
+	path = property-ui
+	url = git@github.com:kazigo/property-ui.git
