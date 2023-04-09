@@ -13,5 +13,15 @@ services:
       - "8071:80"
     volumes:
       - ./property-api/:/var/www/property-api
+  interface:
+    build:
+      context: property-ui
+      dockerfile: Dockerfile
+    container_name: kazigo-interface
+    restart: always
+    ports:
+      - "8072:3000"
+    volumes:
+      - ./property-ui/:/var/www/property-api
 
     
